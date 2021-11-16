@@ -1,0 +1,75 @@
+version: 2
+updates:
+- package-ecosystem: nuget
+  directory: "/"
+  schedule:
+    interval: weekly
+    time: "10:00"
+  open-pull-requests-limit: 10
+  labels:
+  - kind/dependency
+  - do-not-merge/work-in-progress
+  ignore:
+  - dependency-name: Microsoft.Build.Utilities.Core
+    versions:
+    - "> 15.8.166"
+  - dependency-name: Microsoft.Extensions.Logging.Console
+    versions:
+    - ">= 3.1.a, < 3.2"
+  - dependency-name: Microsoft.UI.Xaml
+    versions:
+    - "> 2.3.191211002"
+  - dependency-name: ServiceStack.Client
+    versions:
+    - "> 4.5.12"
+  - dependency-name: ServiceStack.Interfaces
+    versions:
+    - "> 4.5.12"
+  - dependency-name: ServiceStack.Text
+    versions:
+    - "> 4.5.12"
+  - dependency-name: System.Text.RegularExpressions
+    versions:
+    - "> 4.3.0"
+  - dependency-name: Tizen.NET
+    versions:
+    - "> 4.0.0"
+  - dependency-name: XliffTasks
+    versions:
+    - 1.0.0-beta.21110.1
+    - 1.0.0-beta.21126.1
+    - 1.0.0-beta.21153.1
+    - 1.0.0-beta.21169.2
+    - 1.0.0-beta.21210.2
+    - 1.0.0-beta.21217.1
+  - dependency-name: OpenTK
+    versions:
+    - 4.5.0
+    - 4.6.2
+  - dependency-name: Uno.UI.WebAssembly
+    versions:
+    - 3.5.1
+  - dependency-name: Microsoft.Build.Framework
+    versions:
+    - 16.8.0
+  - dependency-name: Microsoft.Build
+    versions:
+    - 16.8.0
+  - dependency-name: Microsoft.Build.Tasks.Core
+    versions:
+    - 16.8.0
+  - dependency-name: Selenium.Support
+    versions:
+    - 3.141.0
+  - dependency-name: System.Runtime.Extensions
+    versions:
+    - 4.3.1
+  - dependency-name: System.Security.Cryptography.X509Certificates
+    versions:
+    - 4.3.2
+  - dependency-name: System.Xml.ReaderWriter
+    versions:
+    - 4.3.1
+  - dependency-name: System.Net.Primitives
+    versions:
+    - 4.3.1
