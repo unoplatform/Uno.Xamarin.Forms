@@ -95,7 +95,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="OpenTK" Version="3.0.1" />
+    <PackageReference Include="OpenTK" Version="4.6.4" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\Xamarin.Forms.Core\Crc64.cs">

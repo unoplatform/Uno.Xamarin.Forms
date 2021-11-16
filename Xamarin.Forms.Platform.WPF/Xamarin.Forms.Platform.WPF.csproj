@@ -31,7 +31,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="OpenTK" Version="3.0.1" />
+    <PackageReference Include="OpenTK" Version="4.6.4" />
     <PackageReference Include="OpenTK.GLControl" Version="3.0.1" />
   </ItemGroup>
 </Project>

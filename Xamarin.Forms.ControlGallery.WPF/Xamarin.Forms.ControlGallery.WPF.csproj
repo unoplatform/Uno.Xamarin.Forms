@@ -37,7 +37,7 @@
   <ItemGroup>
     <PackageReference Include="Meziantou.WpfFontAwesome" Version="5.13.0" />
     <PackageReference Include="Microsoft.Maps.MapControl.WPF" Version="1.0.0.3" />
-    <PackageReference Include="OpenTK" Version="3.0.1" />
+    <PackageReference Include="OpenTK" Version="4.6.4" />
     <PackageReference Include="OpenTK.GLControl" Version="3.0.1" />
   </ItemGroup>
   <ItemGroup>
